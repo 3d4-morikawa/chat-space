@@ -31,7 +31,6 @@ Things you may want to cover:
 |name|string|null: false, index: true|
 |email|string|null: false, unique: true|
 |password|string|null: false|
-|group_id|references|null: false, foreign_key: true|
 ### Association
 - has_many :messages
 - has_many :groups_users
