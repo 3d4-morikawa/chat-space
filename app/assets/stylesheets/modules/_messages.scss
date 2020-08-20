@@ -5,11 +5,31 @@
   display: flex;
   .side-bar {
     width: 300px;
-    .side-bar__header {
+    &__header {
       height: 100px;
       background-color: #253141;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .top-items {
+        background-color: #d8d8d8;
+        height: 20px;
+        width: 260px;
+        display: flex;
+        justify-content: space-between;
+        &__name {
+          font-size: 16px;
+          font-weight: bold;
+        }
+        &__icons {
+          color: #ffffff;
+          display: flex;
+          justify-content: end;
+          margin-left: 5px;
+        }
+      }
     }
-    .side-bar__groups {
+    &__groups {
       height: calc( 100vh - 100px);
       background-color: #2f3e51;
     }
