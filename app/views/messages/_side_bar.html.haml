@@ -1,0 +1,11 @@
+.side-bar
+  .side-bar__header
+    .top-items
+      .top-items__name
+        hogehoge
+      .top-items__icons
+        = link_to "#", class: "items__icon items__icon--edit" do
+          = icon('far', 'edit', class: "items__icon--edit")
+        = link_to "#", class: "items__icon items__icon--cog" do
+          = icon('fas', 'cog', class: "items__icon--cog")
+  .side-bar__groups
